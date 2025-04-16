@@ -1,16 +1,38 @@
-# deliver_app
+# DeliverApp
 
-A new Flutter project.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/42db3867-b170-471e-ab40-48d35272c782">
+</div>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Descrição do Projeto
+Este projeto tem como objetivo desenvolver um aplicativo de delivery utilizando a tecnologia Flutter. Ele foi construído durante a Imersão Mobile oferecida pela plataforma Alura, com foco em aprendizado prático.
 
-A few resources to get you started if this is your first Flutter project:
+## Status do Projeto
+- Concluído
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades
+- Permite ao usuário escolher o restaurante de sua preferência
+- Adição de itens ao carrinho de compras
+- Possibilidade de adicionar ou remover itens do carrinho
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Acesso ao Projeto:
+
+Para acessar o projeto, basta baixar a versão da release no computador e executar os seguintes comandos:
+
+> Instalar as dependências
+```sh
+flutter pub get
+```
+
+> Rodar o programa
+```sh
+flutter run
+```
+
+### Tecnologias Utilizadas:
+
+[![My Skills](https://skillicons.dev/icons?i=flutter,figma,vscode)](https://skillicons.dev)
+
+### Pessoa Desenvolvedora: 
+- Daniela Akemi Hayashi

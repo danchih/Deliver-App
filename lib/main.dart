@@ -1,4 +1,5 @@
 import 'package:deliver_app/UI/_core/app_theme.dart';
+import 'package:deliver_app/UI/_core/bag_provider.dart';
 import 'package:deliver_app/UI/splash/splash_screen.dart';
 import 'package:deliver_app/data/restaurant_data.dart';
 import 'package:deliver_app/model/restaurant.dart';
@@ -17,7 +18,8 @@ void main() async {
           create: (context){
             return restaurantData;
           }
-        )
+        ),
+        ChangeNotifierProvider(create: (context) => BagProvider())
       ],
       child: MyApp(),
     )
@@ -30,6 +32,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: AppTheme.appTheme,
       home: SplashScreen(),
     );

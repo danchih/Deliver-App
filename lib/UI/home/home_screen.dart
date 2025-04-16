@@ -1,3 +1,4 @@
+import 'package:deliver_app/UI/_core/widgets/appbar.dart';
 import 'package:deliver_app/UI/home/widgets/category_widget.dart';
 import 'package:deliver_app/UI/home/widgets/restaurant_widget.dart';
 import 'package:deliver_app/data/categories_data.dart';
@@ -15,11 +16,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       drawer: Drawer(),
-      appBar: AppBar(
-        actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart)),
-        ],
-      ),
+      appBar: getAppBar(context: context),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0), 
           child: SingleChildScrollView(
